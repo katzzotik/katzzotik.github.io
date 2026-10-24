@@ -134,11 +134,13 @@ header {
 /* About me */
 
 #about-me {
-    p {
+    .text-center-container{
         border: solid;
         width: fit-content;
-        max-width: 90%;
-        padding: 10px;
+        height: fit-content;
+        max-width: 48rem;
+        padding-left: 15px;
+        padding-right: 15px;
         border-radius: 10px;
         border-color: var(--ctp-lavender);
         background-color: var(--ctp-mantle);
