@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,68 +11,104 @@
     <script src="https://kit.fontawesome.com/518a4d4af7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
     <meta name="google-site-verification" content="OQCoD7kn34uql7CyeQCZFjeCpkQxG17d39FFmGz-Oxo" />
 </head>
+
 <body>
     <header>
-        <div id="global-header-box">
+        <div id="global-header-title-box">
             <a href="/">
-                <h1 id="global-header">katzzotik'z website</h1>
+                <p id="global-header-title"><b>katzzotik'z website</b></p>
             </a>
         </div>
     </header>
 
-    <h1 class="title1">I am <span class="name">katzzotik</span> :)</h1>
-    <h2 class="title2">Website made to learn <span class="orange-text"><i class="fa-brands fa-html5"></i>HTML</span> & <span class="blue-text"><i class="fa-brands fa-css3-alt"></i>CSS</span></h2>
+    <main>
+        <h1>I am <span class="name">katzzotik</span> :)<br> Website made to learn <span class="html-ctext"><i
+                    class="fa-brands fa-html5"></i>HTML</span> & <span class="css-ctext"><i
+                    class="fa-brands fa-css3-alt"></i>CSS</span></h1>
 
-    <h3>About me</h3>
-    <p id="about-me">I made this website to learn both HTML and CSS, because I got bored. <br>
-        I started out sometime in 2022-2023 with
-        Lua, which I was pretty good at, for that time. <br>
-        Sometime later, I just didn't have anything to do with it anymore.
-        <br> Now I've been occasionally developing things again, but I am still way better at managing things.
-        <br> I use <span class="blue-text"><b>Arch</b><i class="fa-brands fa-arch-linux"></i></span> btw. Don't worry, I don't say that to everyone.<br>
-    </p>
+        <section id="about-me">
+            <h2>About me</h2>
 
-    <h2>Projects</h2>
+            <p>I made this website to learn both HTML and CSS, because I got bored.
+                I started out sometime in 2022-2023 with
+                Lua, which I was pretty good at, for that time.
+                Sometime later, I just didn't have anything to do with it anymore.
+                Now I've been occasionally developing things again, but I am still way better at managing things.
+                <br> I use <span class="archlinux-ctext"><b>Arch</b><i class="fa-brands fa-arch-linux"></i></span> btw.
+                Don't
+                worry, I don't say that to everyone.
+            </p>
+        </section>
 
-    <article class="project-container">
-        <h3 class="project-title-1">Aeronautics Hot Air Fix</h3>
-        <p class="project-title-2"><b>Simple Minecraft mod that fixes an Iris shader bug with <a href="https://modrinth.com/mod/create-aeronautics">Create: Aeronautics</a></b></p>
-        <div class="project-image-container">
-            <img src="assets/images/aeronauticshotairfix-fixed.jpeg" alt="Aeronautics Hot Air Fix Image" class="project-image">
-        </div>
-        <br>
-        <a class="image-link" href="https://modrinth.com/mod/aeronautics-hot-air-fix"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
-        <a class="image-link" href="https://www.curseforge.com/minecraft/mc-mods/aeronautics-hot-air-fix"><img alt="curseforge" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_vector.svg"></a>
-        <a class="image-link" href="https://github.com/katzzotik/aeronautics-hot-air-fix"><img alt="github" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a>
-    </article>
+        <section id="projects">
+            <h2>Projects</h2>
 
-    <article class="project-container">
-        <h3 class="project-title-1"><span class="yellow-text">Create: Terraworks <i class="fa-solid fa-box-archive"></i></span></h3>
-        <p class="project-title-2"><b>Massive Minecraft modpack with Create that adds and reworks tons of content</b></p>
-        <div class="project-image-container">
-            <img src="assets/images/create-terraworks.jpeg" alt="Create Terraworks Image" class="project-image">
-        </div>
-        <br>
-        <a class="image-link" href="https://modrinth.com/modpack/create-terraworks"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
-        <a class="image-link" href="https://github.com/katzzotik/create-terraworks"><img alt="github" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a>
-    </article>
+            <article class="project-container">
+                <div class="hover-tooltip-box" title="Currently Maintained Project">
+                    <h3 class="project-title maintained-ctext">Aeronautics Hot Air Fix <i class="fa-solid fa-fire"></i>
+                    </h3>
+                </div>
+                <p class="project-subtitle"><b>Simple Minecraft mod that fixes an Iris shader bug with <a
+                            href="https://modrinth.com/mod/create-aeronautics">Create: Aeronautics</a></b></p>
+                <div class="project-image-container">
+                    <img src="assets/images/aeronauticshotairfix-fixed.jpeg" alt="Aeronautics Hot Air Fix Image"
+                        class="project-image">
+                </div>
+                <br>
+                <a class="image-link" href="https://modrinth.com/mod/aeronautics-hot-air-fix"><img alt="modrinth"
+                        height="40"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
+                <a class="image-link" href="https://www.curseforge.com/minecraft/mc-mods/aeronautics-hot-air-fix"><img
+                        alt="curseforge" height="40"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_vector.svg"></a>
+                <a class="image-link" href="https://github.com/katzzotik/aeronautics-hot-air-fix"><img alt="github"
+                        height="40"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a>
+            </article>
 
-    <br>
+            <article class="project-container">
+                <div class="hover-tooltip-box" title="Archived Project">
+                    <h3 class="project-title archived-ctext">Create: Terraworks <i
+                            class="fa-solid fa-box-archive archived"></i></h3>
+                </div>
+                <p class="project-subtitle"><b>Massive Minecraft modpack with <a
+                            href="https://modrinth.com/mod/create">Create</a> and way more that adds and reworks tons of
+                        content</b></p>
+                <div class="project-image-container">
+                    <img src="assets/images/create-terraworks.jpeg" alt="Create Terraworks Image" class="project-image">
+                </div>
+                <br>
+                <a class="image-link" href="https://modrinth.com/modpack/create-terraworks"><img alt="modrinth"
+                        height="40"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg"></a>
+                <a class="image-link" href="https://github.com/katzzotik/create-terraworks"><img alt="github"
+                        height="40"
+                        src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/github_vector.svg"></a>
+            </article>
+        </section>
+    </main>
 
     <footer>
         <p id="socials-title"><b>Socials <i class="fa-solid fa-user-group"></i></b></p>
 
-        <nav>
-            <a class="image-link" href="https://github.com/katzzotik"><img alt="github-singular" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/github-singular_vector.svg"></a>
-            <a class="image-link" href="https://modrinth.com/user/katzzotik"><img alt="modrinth" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg"></a>
-            <a class="image-link" href="https://www.curseforge.com/members/katzzotik/"><img alt="curseforge" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg"></a>
+        <nav id="footer-socials">
+            <a class="image-link" href="https://github.com/katzzotik"><img alt="github-singular" height="40"
+                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/social/github-singular_vector.svg"></a>
+            <a class="image-link" href="https://modrinth.com/user/katzzotik"><img alt="modrinth" height="40"
+                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg"></a>
+            <a class="image-link" href="https://www.curseforge.com/members/katzzotik/"><img alt="curseforge" height="40"
+                    src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg"></a>
         </nav>
 
         <p id="copyright-notice"><b>© 2026 katzzotik. All rights reserved.
-        Color palette by <a href="https://github.com/catppuccin">Catppuccin</a> (<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE">MIT License</a>).</b></p>
+                Color palette by <a href="https://github.com/catppuccin">Catppuccin</a> (<a
+                    href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE">MIT License</a>).</b></p>
     </footer>
 </body>
+
 </html>
